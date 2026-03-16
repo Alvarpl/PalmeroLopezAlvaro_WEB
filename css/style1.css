@@ -1,0 +1,442 @@
+/* Figma Styles of your File */
+:root {
+  /* Colors */
+  /* Fonts */
+  /* Effects */
+}
+/* Figma Color Variables of your File */
+
+.secciones,
+.secciones * {
+  box-sizing: border-box;
+}
+.secciones {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+}
+.secciones2 {
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.cabecera {
+  background: #ffffff;
+  padding: 10px 80px 10px 80px;
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 70px;
+  position: relative;
+}
+.festival-cine-cesuga {
+  color: #730240;
+  text-align: left;
+  font-family: "MontserratAlternates-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  position: relative;
+  width: 253px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.men {
+  display: flex;
+  flex-direction: row;
+  gap: 78px;
+  align-items: center;
+  justify-content: flex-end;
+  flex-shrink: 0;
+  width: 1021px;
+  height: 70px;
+  position: relative;
+}
+.bot-n-1 {
+  background: rgba(3, 101, 140, 0);
+  border-radius: 12px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 100px;
+  height: 18px;
+  position: relative;
+}
+.bot-n-12 {
+  color: #730240;
+  text-align: left;
+  font-family: "ReemKufiFun-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+}
+.bot-n-13 {
+  color: #005f92;
+  text-align: left;
+  font-family: "ReemKufiFun-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+}
+.bot-n-14 {
+  background: rgba(3, 101, 140, 0);
+  border-radius: 12px;
+  padding: 10px 0px 10px 0px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 100px;
+  height: 18px;
+  position: relative;
+}
+.body {
+  background: #ffffff;
+  border-style: solid;
+  border-color: #c2c2c2;
+  border-width: 1px;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 882px;
+  position: relative;
+  overflow: hidden;
+}
+.social-icons {
+  width: 19px;
+  height: 19px;
+  position: absolute;
+  left: 637px;
+  top: 857px;
+  overflow: visible;
+}
+.social-icons2 {
+  width: 19px;
+  height: 19px;
+  position: absolute;
+  left: 675px;
+  top: 857px;
+  overflow: visible;
+}
+.social-icons3 {
+  width: 19px;
+  height: 19px;
+  position: absolute;
+  left: 713px;
+  top: 856px;
+  overflow: visible;
+}
+.social-icons4 {
+  width: 19px;
+  height: 19px;
+  position: absolute;
+  left: 751px;
+  top: 856px;
+  overflow: visible;
+}
+.social-icons5 {
+  width: 19px;
+  height: 19px;
+  position: absolute;
+  left: 789px;
+  top: 856px;
+  overflow: visible;
+}
+.nominados {
+  color: #000000;
+  text-align: left;
+  font-family: "MontserratAlternates-Regular", sans-serif;
+  font-size: 96px;
+  font-weight: 400;
+  position: absolute;
+  left: 434px;
+  top: 60px;
+  width: 634px;
+  height: 86px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frame-36 {
+  display: flex;
+  flex-direction: row;
+  gap: 22px;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  left: -24px;
+  top: 190px;
+}
+.frame-15 {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 280px;
+  position: relative;
+}
+.rectangle-26 {
+  background: #d9d9d9;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 504px;
+  position: relative;
+}
+.categoria {
+  color: #000000;
+  text-align: left;
+  font-family: "MontserratAlternates-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frame-14 {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 280px;
+  position: relative;
+}
+.rectangle-25 {
+  background: #d9d9d9;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 504px;
+  position: relative;
+}
+.frame-13 {
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 280px;
+  height: 559px;
+  position: relative;
+}
+.rectangle-22 {
+  background: #d9d9d9;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 504px;
+  position: relative;
+}
+.categoria2 {
+  color: #000000;
+  text-align: left;
+  font-family: "MontserratAlternates-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  position: relative;
+  width: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frame-12 {
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 280px;
+  height: 560px;
+  position: relative;
+}
+.rectangle-23 {
+  background: #d9d9d9;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 504px;
+  position: relative;
+}
+.frame-35 {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-11 {
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 280px;
+  position: relative;
+}
+.rectangle-24 {
+  background: #d9d9d9;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 504px;
+  position: relative;
+}
+.pie-de-p-gina {
+  background: #ffffff;
+  padding: 20px 80px 20px 80px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 1440px;
+  height: 101px;
+  position: absolute;
+  left: -7px;
+  top: 899px;
+  overflow: hidden;
+}
+.logo-cesuga-new-2 {
+  flex-shrink: 0;
+  width: 42px;
+  height: 51px;
+  position: relative;
+  overflow: hidden;
+  aspect-ratio: 42/51;
+}
+.logo-cesuga-new-1 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+  object-fit: cover;
+}
+.shared-image-3-1 {
+  flex-shrink: 0;
+  width: 118px;
+  height: 55px;
+  position: relative;
+  object-fit: cover;
+  aspect-ratio: 118/55;
+}
+.frame-2 {
+  padding: 0px 35px 0px 128px;
+  display: flex;
+  flex-direction: row;
+  gap: 27px;
+  align-items: center;
+  justify-content: flex-end;
+  flex-shrink: 0;
+  width: 1099px;
+  height: 49px;
+  position: relative;
+  overflow: hidden;
+}
+.captura-de-pantalla-2026-01-28-102525-1 {
+  flex-shrink: 0;
+  width: 72px;
+  height: 19px;
+  position: relative;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, -1);
+  object-fit: cover;
+  aspect-ratio: 72/19;
+}
+.estrella-galicia-negro-1 {
+  flex-shrink: 0;
+  width: 45px;
+  height: 34.11px;
+  position: relative;
+  object-fit: cover;
+  aspect-ratio: 45/34.11;
+}
+.captura-de-pantalla-2026-01-28-102545-2 {
+  flex-shrink: 0;
+  width: 130px;
+  height: 37px;
+  position: relative;
+  object-fit: cover;
+  aspect-ratio: 130/37;
+}
+.www-dacoruna-1 {
+  flex-shrink: 0;
+  width: 32px;
+  height: 37px;
+  position: relative;
+  object-fit: cover;
+  aspect-ratio: 32/37;
+}
+.logo-da-xunta-de-galicia-2021-svg-1 {
+  flex-shrink: 0;
+  width: 78px;
+  height: 22.3px;
+  position: relative;
+  object-fit: cover;
+  aspect-ratio: 78/22.3;
+}
+.pie-de-p-gina2 {
+  background: #ffffff;
+  padding: 20px 80px 20px 80px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 1440px;
+  height: 101px;
+  position: absolute;
+  left: -7px;
+  top: 898px;
+  overflow: hidden;
+}
+.pie-de-p-gina3 {
+  background: #ffffff;
+  padding: 20px 80px 20px 80px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 101px;
+  position: relative;
+  overflow: hidden;
+}
+.captura-de-pantalla-2026-01-28-102525-12 {
+  flex-shrink: 0;
+  width: 76px;
+  height: 20px;
+  position: relative;
+  object-fit: cover;
+  aspect-ratio: 76/20;
+}

@@ -1,0 +1,284 @@
+a,
+button,
+input,
+select,
+h1,
+h2,
+h3,
+h4,
+h5,
+
+* {
+ box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+ border: none;
+ text-decoration: none;
+ background: none;
+ -webkit-font-smoothing: antialiased;
+}
+menu, ol, ul {
+ list-style-type: none;
+ margin: 0;
+ padding: 0;
+}
+
+:root {
+}
+
+.inicio,
+.inicio * {
+  box-sizing: border-box;
+}
+.inicio {
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+.cabecera {
+  background: #ffffff;
+  padding: 10px 80px 10px 80px;
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 70px;
+  position: relative;
+}
+.festival-cine-cesuga {
+  color: #730240;
+  text-align: left;
+  font-family: "MontserratAlternates-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  position: relative;
+  width: 253px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.men {
+  display: flex;
+  flex-direction: row;
+  gap: 78px;
+  align-items: center;
+  justify-content: flex-end;
+  flex-shrink: 0;
+  width: 1021px;
+  height: 70px;
+  position: relative;
+}
+.bot-n-1 {
+  background: rgba(3, 101, 140, 0);
+  border-radius: 12px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 100px;
+  height: 18px;
+  position: relative;
+}
+.bot-n-12 {
+  color: #730240;
+  text-align: left;
+  font-family: "ReemKufiFun-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+}
+.body {
+  background: #ffffff;
+  border-style: solid;
+  border-color: #c2c2c2;
+  border-width: 1px;
+  flex-shrink: 0;
+  width: 1440px;
+  height: 882px;
+  position: relative;
+  overflow: hidden;
+}
+.frame-37 {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 1300px;
+  position: absolute;
+  left: 71px;
+  top: 41px;
+}
+.festivales-y-eventos-de-cine-que-no-te-puedes-perder-1 {
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 159px;
+  position: relative;
+  object-fit: cover;
+}
+.frame-38 {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 1300px;
+  position: absolute;
+  left: 71px;
+  top: 239px;
+}
+._28-festival-cine-malaga-2025-1 {
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 602px;
+  position: relative;
+  object-fit: cover;
+  aspect-ratio: 1280/602;
+}
+.social-icons {
+  width: 19px;
+  height: 19px;
+  position: absolute;
+  left: 637px;
+  top: 857px;
+  overflow: visible;
+}
+.social-icons2 {
+  width: 19px;
+  height: 19px;
+  position: absolute;
+  left: 675px;
+  top: 857px;
+  overflow: visible;
+}
+.social-icons3 {
+  width: 19px;
+  height: 19px;
+  position: absolute;
+  left: 713px;
+  top: 856px;
+  overflow: visible;
+}
+.social-icons4 {
+  width: 19px;
+  height: 19px;
+  position: absolute;
+  left: 751px;
+  top: 856px;
+  overflow: visible;
+}
+.social-icons5 {
+  width: 19px;
+  height: 19px;
+  position: absolute;
+  left: 789px;
+  top: 856px;
+  overflow: visible;
+}
+.pie-de-p-gina {
+  background: #ffffff;
+  padding: 20px 80px 20px 80px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 101px;
+  position: relative;
+  overflow: hidden;
+}
+.logo-cesuga-new-2 {
+  flex-shrink: 0;
+  width: 42px;
+  height: 51px;
+  position: relative;
+  overflow: hidden;
+  aspect-ratio: 42/51;
+}
+.logo-cesuga-new-1 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+  object-fit: cover;
+}
+.shared-image-3-1 {
+  flex-shrink: 0;
+  width: 118px;
+  height: 55px;
+  position: relative;
+  object-fit: cover;
+  aspect-ratio: 118/55;
+}
+.frame-2 {
+  padding: 0px 35px 0px 128px;
+  display: flex;
+  flex-direction: row;
+  gap: 27px;
+  align-items: center;
+  justify-content: flex-end;
+  flex-shrink: 0;
+  width: 1099px;
+  height: 49px;
+  position: relative;
+  overflow: hidden;
+}
+.captura-de-pantalla-2026-01-28-102525-1 {
+  flex-shrink: 0;
+  width: 64px;
+  height: 16px;
+  position: relative;
+  object-fit: cover;
+  aspect-ratio: 64/16;
+}
+.estrella-galicia-negro-1 {
+  flex-shrink: 0;
+  width: 45px;
+  height: 34.11px;
+  position: relative;
+  object-fit: cover;
+  aspect-ratio: 45/34.11;
+}
+.captura-de-pantalla-2026-01-28-102545-2 {
+  flex-shrink: 0;
+  width: 130px;
+  height: 37px;
+  position: relative;
+  object-fit: cover;
+  aspect-ratio: 130/37;
+}
+.www-dacoruna-1 {
+  flex-shrink: 0;
+  width: 32px;
+  height: 37px;
+  position: relative;
+  object-fit: cover;
+  aspect-ratio: 32/37;
+}
+.logo-da-xunta-de-galicia-2021-svg-1 {
+  flex-shrink: 0;
+  width: 78px;
+  height: 22.3px;
+  position: relative;
+  object-fit: cover;
+  aspect-ratio: 78/22.3;
+}
