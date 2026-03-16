@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="stylesheet" href="css/style_Postulación.css">
+  
+  
+  <style>
+   a,
+   button,
+   input,
+   select,
+   h1,
+   h2,
+   h3,
+   h4,
+   h5,
+   * {
+       box-sizing: border-box;
+       margin: 0;
+       padding: 0;
+       border: none;
+       text-decoration: none;
+       background: none;
+   
+       -webkit-font-smoothing: antialiased;
+   }
+   
+   menu, ol, ul {
+       list-style-type: none;
+       margin: 0;
+       padding: 0;
+   }
+   </style>
+  <title>Document</title>
+</head>
+<body>
+  <div class="inicio">
+    <div class="cabecera">
+      <div class="festival-cine-cesuga"> <a class="inicio" href="index.html"> Festival cine Cesuga</a></div>
+      <div class="men">
+        <div class="bot-n-1">
+          <a class="bot-n-12" href="postulacion.html">Postulación</a>
+        </div>
+        <div class="bot-n-1">
+          <a class="bot-n-12" href="Secciones.html">Secciones</a>
+        </div>
+        <div class="bot-n-1">
+          <a class="bot-n-12" href="Info_festival.html">Info festival</a>
+        </div>
+        <div class="bot-n-1">
+          <a class="bot-n-12" href="https://cesuga.com/"  >Cesuga</a> 
+        </div>
+        <div class="bot-n-1">
+          <a class="bot-n-12" href="Contacto.html">Contacto</a>
+        </div>
+      </div>
+    </div>
+    <div class="body">
+     <a href="https://www.youtube.com/@elbecex" target="_blank">
+  <img class="social-icons" src="img/social-icons0.svg" />
+</a>
+
+<a href="https://x.com/ElbeceXD" target="_blank">
+  <img class="social-icons2" src="img/social-icons1.svg" />
+</a>
+
+<a href="https://www.instagram.com/elbecex/" target="_blank">
+  <img class="social-icons3" src="img/social-icons2.svg" />
+</a>
+
+<a href="https://www.tiktok.com/@elbecex" target="_blank">
+  <img class="social-icons4" src="img/social-icons3.svg" />
+</a>
+
+<a href="https://www.youtube.com/@elbecex" target="_blank">
+  <img class="social-icons5" src="img/social-icons4.svg" />
+</a>
+      <img class="conejos" src="img/conejos.jpg" />
+    
+<div id="contenido" class="despegable-de-7-apartados"></div>
+      <div class="text">A continuación se disponen todos los apartados que deben de ser tenidos en cuenta para participar en el festival.</div>
+     <select id="menu" class="dropdown-bonito" onchange="cambiarTexto()">
+<option value="">Información</option>
+<option value="op1">Inscripción</option>
+<option value="op2">Apartados</option>
+<option value="op3">Premios</option>
+</select>
+
+<div id="contenido" class="despegable-de-7-apartados"></div>
+
+<script>
+function cambiarTexto() {
+
+    var opcion = document.getElementById("menu").value;
+    var texto = document.getElementById("contenido");
+
+    if(opcion == ""){
+        texto.innerHTML = "";
+        texto.classList.remove("mostrar-texto");
+        return;
+    }
+
+    if(opcion == "op1"){
+        texto.innerHTML = "El plazo de inscripción será del 10/08/2026 a 22/09/2026.<br><br>Para presentar el corto se tendrá que rellenar el siguiente formulario con los datos requeridos.";
+    }
+
+    if(opcion == "op2"){
+        texto.innerHTML = "Este año contamos con 3 categorías, dos dedicadas al Stop Motion y una tercera de carácter libre.<br><br>Los cortos deberán tener una duración de entre 5 y 20 minutos (sin contar créditos).";
+    }
+
+    if(opcion == "op3"){
+        texto.innerHTML = "Cada sección será premiada con 200€ al ganador, que será elegido por el jurado proporcionado por el centro.";
+    }
+
+    texto.classList.add("mostrar-texto");
+}
+</script>
+    </div>
+  </div>
+</head>
+<body>
+
+
+</head>
+<body>
+    </div>
+          <div class="pie-de-p-gina">
+        <div class="logo-cesuga-new-2">
+          <img class="logo-cesuga-new-1" src="img/logo-cesuga-new-10.png" />
+        </div>
+        <img class="shared-image-3-1" src="img/shared-image-3-10.png" />
+        <div class="frame-2">
+          <img
+            class="captura-de-pantalla-2026-01-28-102525-1"
+            src="img/captura-de-pantalla-2026-01-28-102525-10.png"
+          />
+          <img
+            class="estrella-galicia-negro-1"
+            src="img/estrella-galicia-negro-10.png"
+          />
+          <img
+            class="captura-de-pantalla-2026-01-28-102545-2"
+            src="img/captura-de-pantalla-2026-01-28-102545-20.png"
+          />
+          <img class="www-dacoruna-1" src="img/www-dacoruna-10.png" />
+          <img
+            class="logo-da-xunta-de-galicia-2021-svg-1"
+            src="img/logo-da-xunta-de-galicia-2021-svg-10.png"
+          />
+        </div>
+      </div>
+    
+        </div>
+      </div>
+    </div>
+</body>
+</html>
